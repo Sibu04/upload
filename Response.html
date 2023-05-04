@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Upload Response</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h2>Upload Response</h2>
+    <p>File uploaded successfully.</p>
+    <p><input type="text" id="url" value="{{ url }}" readonly></p>
+    <button onclick="copyToClipboard()">Copy URL</button>
+    <button onclick="openInBrowser()">Open in Browser</button>
+    <script>
+        function copyToClipboard() {
+            var urlInput = document.getElementById("url");
+            urlInput.select();
+            urlInput.setSelectionRange(0, 99999); // For mobile devices
+            document.execCommand("copy");
+            alert("Copied the URL to clipboard: " + urlInput.value);
+        }
+
+        function openInBrowser() {
+            var url = document.getElementById("url").value;
+            window.open(url, "_blank");
+        }
+    </script>
+</body>
+</html>

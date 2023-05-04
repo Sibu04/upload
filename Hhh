@@ -1,0 +1,31 @@
+import xml.etree.ElementTree as ET
+import json
+import datetime
+
+tree = ET.parse('calls.xml')
+root = tree.getroot()
+
+number = input("Enter the phone number: ")
+
+calls = []
+
+for call in root.findall(".//call[@number='{}']".format(number)):
+    duration = call.get('duration')
+    if duration != "0":
+        date_time_str = call.get('readable_date')
+        date_time_obj = datetime.datetime.strptime(date_time_str, '%d-%b-%Y %I:%M:%S %p')
+        time_str = date_time_obj.strftime('%I:%M %p').lstrip('0')
+        call_data = {
+            "time": time_str,
+            "call_duration": duration           
+        }
+        calls.append(call_data)
+        
+filename = input("Enter the output file name: ")
+if not filename.endswith(".json"):
+    filename += ".json"
+
+with open(filename, 'w') as f:
+    json.dump(calls, f)
+
+print("Call details written to", filename)

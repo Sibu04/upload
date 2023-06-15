@@ -1,0 +1,500 @@
+2023-06-05T13:41:34.832514+00:00 heroku[router]: at=info method=GET path="/api/v1/files?name=IMG_20230605_190237_251.jpg" host=teledrv-bot.herokuapp.com request_id=a5a7f699-0380-4e16-bea0-1536cb09e041 fwd="157.41.253.130" dyno=web.1 connect=0ms service=177ms status=200 bytes=284 protocol=https
+2023-06-05T13:41:35.298555+00:00 app[web.1]: [33m[2023-06-05T13:41:35.298] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:35.298899+00:00 app[web.1]: [33m[2023-06-05T13:41:35.298] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:35.323956+00:00 app[web.1]: [33m[2023-06-05T13:41:35.323] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:35.324004+00:00 app[web.1]: [33m[2023-06-05T13:41:35.323] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:36.265272+00:00 app[web.1]: [33m[2023-06-05T13:41:36.265] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:36.265417+00:00 app[web.1]: [33m[2023-06-05T13:41:36.265] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:36.265503+00:00 app[web.1]: POST /api/v1/files/upload?name=IMG_20230605_190237_251.jpg&size=26315&mime_type=image%2Fjpeg&part=0&total_part=1 202 70 - 966.883 ms
+2023-06-05T13:41:36.265551+00:00 heroku[router]: at=info method=POST path="/api/v1/files/upload?name=IMG_20230605_190237_251.jpg&size=26315&mime_type=image%2Fjpeg&part=0&total_part=1" host=teledrv-bot.herokuapp.com request_id=1a66c9d5-f89f-46c8-9859-71d5a6c8de55 fwd="157.41.253.130" dyno=web.1 connect=0ms service=968ms status=202 bytes=401 protocol=https
+2023-06-05T13:41:36.910337+00:00 app[web.1]: [33m[2023-06-05T13:41:36.910] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:36.910724+00:00 app[web.1]: [33m[2023-06-05T13:41:36.910] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:36.935850+00:00 app[web.1]: [33m[2023-06-05T13:41:36.935] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:36.935917+00:00 app[web.1]: [33m[2023-06-05T13:41:36.935] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:37.118202+00:00 app[web.1]: [33m[2023-06-05T13:41:37.118] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:37.118568+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&sort=created_at:desc&id.in=(%2788463f60-dc9d-4ae4-99b6-ffa10d58ae8a%27)" host=teledrv-bot.herokuapp.com request_id=15403fb0-5754-458e-b06f-69718a41fedc fwd="157.41.253.130" dyno=web.1 connect=0ms service=209ms status=200 bytes=620 protocol=https
+2023-06-05T13:41:37.119493+00:00 app[web.1]: [33m[2023-06-05T13:41:37.119] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:37.119621+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&sort=created_at:desc&id.in=(%2788463f60-dc9d-4ae4-99b6-ffa10d58ae8a%27) 200 357 - 207.899 ms
+2023-06-05T13:41:38.315866+00:00 app[web.1]: [33m[2023-06-05T13:41:38.315] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:38.316328+00:00 app[web.1]: [33m[2023-06-05T13:41:38.316] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:38.341150+00:00 app[web.1]: [33m[2023-06-05T13:41:38.341] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:38.341210+00:00 app[web.1]: [33m[2023-06-05T13:41:38.341] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:38.507201+00:00 app[web.1]: [33m[2023-06-05T13:41:38.507] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:38.507389+00:00 app[web.1]: [33m[2023-06-05T13:41:38.507] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:38.507438+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972480353" host=teledrv-bot.herokuapp.com request_id=4597259c-047a-46e3-a490-83a8a8008051 fwd="157.41.253.130" dyno=web.1 connect=0ms service=192ms status=200 bytes=620 protocol=https
+2023-06-05T13:41:38.507513+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972480353 200 357 - 191.571 ms
+2023-06-05T13:41:44.475593+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.330 ms
+2023-06-05T13:41:44.475845+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=cbb99399-24ad-4c5a-a2c2-a4e1fb1e372e fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:41:44.612046+00:00 app[web.1]: GET /logo192.png 304 - - 0.321 ms
+2023-06-05T13:41:44.612047+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=0a581d46-56ab-4153-b0cd-395f6f53a0b4 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:41:44.653848+00:00 app[web.1]: [33m[2023-06-05T13:41:44.653] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:44.654205+00:00 app[web.1]: [33m[2023-06-05T13:41:44.654] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:44.678867+00:00 app[web.1]: [33m[2023-06-05T13:41:44.678] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:44.678920+00:00 app[web.1]: [33m[2023-06-05T13:41:44.678] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:44.713893+00:00 app[web.1]: GET /app.dark.css 304 - - 0.267 ms
+2023-06-05T13:41:44.714103+00:00 heroku[router]: at=info method=GET path="/app.dark.css" host=teledrv-bot.herokuapp.com request_id=13a19bc2-842c-460b-8fb2-72cf3451a861 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:41:44.795313+00:00 app[web.1]: GET /antd.dark.css 304 - - 0.292 ms
+2023-06-05T13:41:44.795540+00:00 heroku[router]: at=info method=GET path="/antd.dark.css" host=teledrv-bot.herokuapp.com request_id=a1ff5ce0-472e-433e-ba8c-ac7b5a4e0f44 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=293 protocol=https
+2023-06-05T13:41:44.843512+00:00 app[web.1]: [33m[2023-06-05T13:41:44.843] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:44.843628+00:00 heroku[router]: at=info method=GET path="/api/v1/users/me" host=teledrv-bot.herokuapp.com request_id=00f5abcf-a3f4-4e8c-a2d6-6c7a7c00e1d7 fwd="157.41.253.130" dyno=web.1 connect=0ms service=190ms status=304 bytes=205 protocol=https
+2023-06-05T13:41:44.843638+00:00 app[web.1]: [33m[2023-06-05T13:41:44.843] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:44.843730+00:00 app[web.1]: GET /api/v1/users/me 304 - - 189.842 ms
+2023-06-05T13:41:44.996886+00:00 app[web.1]: [33m[2023-06-05T13:41:44.996] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:44.997299+00:00 app[web.1]: [33m[2023-06-05T13:41:44.997] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:45.023162+00:00 app[web.1]: [33m[2023-06-05T13:41:45.023] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:45.023230+00:00 app[web.1]: [33m[2023-06-05T13:41:45.023] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:45.083662+00:00 app[web.1]: GET /app.css 304 - - 0.321 ms
+2023-06-05T13:41:45.083841+00:00 heroku[router]: at=info method=GET path="/app.css" host=teledrv-bot.herokuapp.com request_id=a4e10f9d-6ac1-44ad-87f6-30a3f827791f fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=290 protocol=https
+2023-06-05T13:41:45.241480+00:00 heroku[router]: at=info method=GET path="/api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?password=null" host=teledrv-bot.herokuapp.com request_id=d18bf8a9-9abe-4ba2-bc31-3106ffade8d6 fwd="157.41.253.130" dyno=web.1 connect=0ms service=246ms status=200 bytes=878 protocol=https
+2023-06-05T13:41:45.241525+00:00 app[web.1]: [33m[2023-06-05T13:41:45.241] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:45.241676+00:00 app[web.1]: [33m[2023-06-05T13:41:45.241] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:45.241781+00:00 app[web.1]: GET /api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?password=null 200 615 - 244.832 ms
+2023-06-05T13:41:45.647270+00:00 app[web.1]: [33m[2023-06-05T13:41:45.647] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:45.647778+00:00 app[web.1]: [33m[2023-06-05T13:41:45.647] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:45.672697+00:00 app[web.1]: [33m[2023-06-05T13:41:45.672] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:45.672760+00:00 app[web.1]: [33m[2023-06-05T13:41:45.672] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:45.749590+00:00 app[web.1]: [33m[2023-06-05T13:41:45.749] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:45.749921+00:00 app[web.1]: [33m[2023-06-05T13:41:45.749] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:45.772900+00:00 app[web.1]: [33m[2023-06-05T13:41:45.772] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:45.772956+00:00 app[web.1]: [33m[2023-06-05T13:41:45.772] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:45.818751+00:00 app[web.1]: GET /manifest.json 304 - - 0.292 ms
+2023-06-05T13:41:45.819451+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=teledrv-bot.herokuapp.com request_id=69323b96-03f0-415f-91cc-8c16725aa0d3 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:41:45.828499+00:00 app[web.1]: [33m[2023-06-05T13:41:45.828] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:45.828629+00:00 app[web.1]: [33m[2023-06-05T13:41:45.828] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:45.828707+00:00 heroku[router]: at=info method=GET path="/api/v1/users/4c8492b6-4451-4d06-ad24-a6483c6eebca" host=teledrv-bot.herokuapp.com request_id=d07db9ef-4f9d-47f6-b15f-fb1e9a7fcb5b fwd="157.41.253.130" dyno=web.1 connect=0ms service=183ms status=200 bytes=581 protocol=https
+2023-06-05T13:41:45.828717+00:00 app[web.1]: GET /api/v1/users/4c8492b6-4451-4d06-ad24-a6483c6eebca 200 318 - 181.629 ms
+2023-06-05T13:41:45.974056+00:00 app[web.1]: undefined
+2023-06-05T13:41:46.101852+00:00 app[web.1]: [33m[2023-06-05T13:41:46.101] [INFO] - [Starting direct file download in chunks of 131072 at 0, stride 131072][0m
+2023-06-05T13:41:46.263889+00:00 app[web.1]: [33m[2023-06-05T13:41:46.263] [INFO] - [Connecting to 149.154.175.52:443/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:46.287151+00:00 app[web.1]: [33m[2023-06-05T13:41:46.287] [INFO] - [Connection to 149.154.175.52:443/TCPFull complete!][0m
+2023-06-05T13:41:46.397980+00:00 app[web.1]: 3 26315/26315 (100%)
+2023-06-05T13:41:46.398490+00:00 app[web.1]: 3 26315/26315 (100%) -end-
+2023-06-05T13:41:46.399200+00:00 app[web.1]: GET /api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&password=null 200 26315 - 649.050 ms
+2023-06-05T13:41:46.399354+00:00 heroku[router]: at=info method=GET path="/api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&password=null" host=teledrv-bot.herokuapp.com request_id=f764572a-7dcf-4323-aef9-0bfa190336c8 fwd="157.41.253.130" dyno=web.1 connect=0ms service=650ms status=200 bytes=26637 protocol=https
+2023-06-05T13:41:46.404200+00:00 app[web.1]: [33m[2023-06-05T13:41:46.404] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:46.404333+00:00 app[web.1]: [33m[2023-06-05T13:41:46.404] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:46.803745+00:00 app[web.1]: GET /logo192.png 304 - - 0.334 ms
+2023-06-05T13:41:46.803993+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=02326f44-01bf-4d1b-a571-e42b5977420c fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:41:47.817740+00:00 app[web.1]: GET /service-worker.js 304 - - 0.458 ms
+2023-06-05T13:41:47.817747+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=teledrv-bot.herokuapp.com request_id=9869e681-f55c-4118-adf6-bf189e272b29 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:41:49.331896+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=844bbd32-fb39-4e37-87b8-543a9844e00d fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:41:49.331919+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.374 ms
+2023-06-05T13:41:49.413825+00:00 app[web.1]: [33m[2023-06-05T13:41:49.413] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:41:49.414256+00:00 app[web.1]: [33m[2023-06-05T13:41:49.414] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:41:49.439061+00:00 app[web.1]: [33m[2023-06-05T13:41:49.439] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:49.439147+00:00 app[web.1]: [33m[2023-06-05T13:41:49.439] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:41:49.598480+00:00 app[web.1]: [33m[2023-06-05T13:41:49.598] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:41:49.598655+00:00 heroku[router]: at=info method=GET path="/api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?password=null" host=teledrv-bot.herokuapp.com request_id=43c706b3-0cf3-411c-aa97-ac4d0430f452 fwd="157.41.253.130" dyno=web.1 connect=0ms service=185ms status=304 bytes=205 protocol=https
+2023-06-05T13:41:49.598684+00:00 app[web.1]: [33m[2023-06-05T13:41:49.598] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:41:49.598819+00:00 app[web.1]: GET /api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?password=null 304 - - 184.979 ms
+2023-06-05T13:42:16.298238+00:00 app[web.1]: [33m[2023-06-05T13:42:16.298] [INFO] - [Disconnecting from 149.154.175.52:443/TCPFull...][0m
+2023-06-05T13:42:16.298415+00:00 app[web.1]: [33m[2023-06-05T13:42:16.298] [INFO] - [Disconnecting from 149.154.175.52:443/TCPFull complete!][0m
+2023-06-05T13:42:17.471387+00:00 heroku[router]: at=info method=GET path="/api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&dl=1&password=null" host=teledrv-bot.herokuapp.com request_id=72371228-f956-4edd-940e-d3ac52fe0b74 fwd="149.154.161.216" dyno=web.1 connect=0ms service=4ms status=404 bytes=294 protocol=https
+2023-06-05T13:42:17.477061+00:00 app[web.1]: handler undefined
+2023-06-05T13:42:17.477278+00:00 app[web.1]: { status: 404, body: { error: 'File not found' } }
+2023-06-05T13:42:17.477666+00:00 app[web.1]: GET /api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&dl=1&password=null 404 26 - 3.099 ms
+2023-06-05T13:42:19.446797+00:00 app[web.1]: handler undefined
+2023-06-05T13:42:19.446947+00:00 app[web.1]: { status: 404, body: { error: 'File not found' } }
+2023-06-05T13:42:19.447287+00:00 app[web.1]: HEAD /api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&dl=1&password=null 404 26 - 2.307 ms
+2023-06-05T13:42:19.447495+00:00 heroku[router]: at=info method=HEAD path="/api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&dl=1&password=null" host=teledrv-bot.herokuapp.com request_id=27a72ddd-d795-409b-8763-1a4590f537c3 fwd="195.201.40.190" dyno=web.1 connect=0ms service=3ms status=404 bytes=268 protocol=https
+2023-06-05T13:42:19.843247+00:00 app[web.1]: handler undefined
+2023-06-05T13:42:19.843412+00:00 app[web.1]: { status: 404, body: { error: 'File not found' } }
+2023-06-05T13:42:19.843739+00:00 app[web.1]: HEAD /api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&dl=1&password=null 404 26 - 2.394 ms
+2023-06-05T13:42:19.844354+00:00 heroku[router]: at=info method=HEAD path="/api/v1/files/88463f60-dc9d-4ae4-99b6-ffa10d58ae8a?raw=1&dl=1&password=null" host=teledrv-bot.herokuapp.com request_id=dc0f808e-2909-40e2-b44d-5c2ad5b4714a fwd="195.201.40.190" dyno=web.1 connect=0ms service=3ms status=404 bytes=268 protocol=https
+2023-06-05T13:42:27.914571+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.465 ms
+2023-06-05T13:42:27.914647+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=1bcf0f36-7842-48e1-b8be-0ea6d14bcc9c fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:42:27.922290+00:00 app[web.1]: [33m[2023-06-05T13:42:27.922] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:42:27.922641+00:00 app[web.1]: [33m[2023-06-05T13:42:27.922] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:42:27.947745+00:00 app[web.1]: [33m[2023-06-05T13:42:27.947] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:42:27.947807+00:00 app[web.1]: [33m[2023-06-05T13:42:27.947] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:42:28.133642+00:00 app[web.1]: [33m[2023-06-05T13:42:28.133] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:42:28.133644+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972480353" host=teledrv-bot.herokuapp.com request_id=264e0d2d-a263-4fed-ab52-53a86b410855 fwd="157.41.253.130" dyno=web.1 connect=1ms service=212ms status=304 bytes=205 protocol=https
+2023-06-05T13:42:28.133774+00:00 app[web.1]: [33m[2023-06-05T13:42:28.133] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:42:28.133881+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972480353 304 - - 211.461 ms
+2023-06-05T13:42:40.505847+00:00 app[web.1]: [35m[2023-06-05T13:42:40.505] [WARN] - [Attempt 0 at connecting failed][0m
+2023-06-05T13:42:40.506263+00:00 app[web.1]: Error: connect ETIMEDOUT 91.108.56.142:443
+2023-06-05T13:42:40.506263+00:00 app[web.1]:     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1494:16) {
+2023-06-05T13:42:40.506263+00:00 app[web.1]:   errno: -110,
+2023-06-05T13:42:40.506264+00:00 app[web.1]:   code: 'ETIMEDOUT',
+2023-06-05T13:42:40.506264+00:00 app[web.1]:   syscall: 'connect',
+2023-06-05T13:42:40.506264+00:00 app[web.1]:   address: '91.108.56.142',
+2023-06-05T13:42:40.506265+00:00 app[web.1]:   port: 443
+2023-06-05T13:42:40.506265+00:00 app[web.1]: }
+2023-06-05T13:42:43.138546+00:00 app[web.1]: [33m[2023-06-05T13:42:43.138] [INFO] - [Connection to 91.108.56.142:443/TCPFull complete!][0m
+2023-06-05T13:42:43.138582+00:00 app[web.1]: [33m[2023-06-05T13:42:43.138] [INFO] - [Exporting authorization for data center 91.108.56.142 with layer 150][0m
+2023-06-05T13:42:44.322183+00:00 app[web.1]: [33m[2023-06-05T13:42:44.322] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:42:44.322393+00:00 app[web.1]: [33m[2023-06-05T13:42:44.322] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:43:13.881577+00:00 app[web.1]: [33m[2023-06-05T13:43:13.881] [INFO] - [Disconnecting from 91.108.56.142:443/TCPFull...][0m
+2023-06-05T13:43:13.881841+00:00 app[web.1]: [33m[2023-06-05T13:43:13.881] [INFO] - [Disconnecting from 91.108.56.142:443/TCPFull complete!][0m
+2023-06-05T13:45:44.592650+00:00 app[web.1]: [33m[2023-06-05T13:45:44.592] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:45:44.593098+00:00 app[web.1]: [33m[2023-06-05T13:45:44.593] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:45:44.618034+00:00 app[web.1]: [33m[2023-06-05T13:45:44.617] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:45:44.618098+00:00 app[web.1]: [33m[2023-06-05T13:45:44.618] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:45:44.804779+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972744194" host=teledrv-bot.herokuapp.com request_id=66516d3d-5cef-4a08-8bbc-07c65f03505f fwd="157.41.253.130" dyno=web.1 connect=0ms service=218ms status=200 bytes=620 protocol=https
+2023-06-05T13:45:44.809632+00:00 app[web.1]: [33m[2023-06-05T13:45:44.809] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:45:44.809767+00:00 app[web.1]: [33m[2023-06-05T13:45:44.809] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:45:44.809883+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972744194 200 357 - 217.271 ms
+2023-06-05T13:45:45.582309+00:00 app[web.1]: GET /manifest.json 304 - - 0.436 ms
+2023-06-05T13:45:45.582366+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=teledrv-bot.herokuapp.com request_id=6471a14f-3a96-4ece-aafc-8014fe8b933a fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:45:45.904004+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=64171ab9-4503-4f47-988a-a60606ce1e8f fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:45:45.908803+00:00 app[web.1]: GET /logo192.png 304 - - 0.407 ms
+2023-06-05T13:45:47.054065+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=teledrv-bot.herokuapp.com request_id=081e0b9c-0c8d-45e5-9214-39adb46db230 fwd="157.41.253.130" dyno=web.1 connect=0ms service=2ms status=304 bytes=292 protocol=https
+2023-06-05T13:45:47.058746+00:00 app[web.1]: GET /service-worker.js 304 - - 0.764 ms
+2023-06-05T13:46:09.927705+00:00 app[web.1]: [33m[2023-06-05T13:46:09.927] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:46:09.928191+00:00 app[web.1]: [33m[2023-06-05T13:46:09.928] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:46:09.954176+00:00 app[web.1]: [33m[2023-06-05T13:46:09.954] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:09.954252+00:00 app[web.1]: [33m[2023-06-05T13:46:09.954] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:46:10.088944+00:00 heroku[router]: at=info method=POST path="/api/v1/files/addFolder" host=teledrv-bot.herokuapp.com request_id=ba8a54f7-6d17-47db-a56f-42f715bec6d5 fwd="157.41.253.130" dyno=web.1 connect=0ms service=168ms status=200 bytes=818 protocol=https
+2023-06-05T13:46:10.093753+00:00 app[web.1]: [33m[2023-06-05T13:46:10.093] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:46:10.093894+00:00 app[web.1]: [33m[2023-06-05T13:46:10.093] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:10.094012+00:00 app[web.1]: POST /api/v1/files/addFolder 200 491 - 166.354 ms
+2023-06-05T13:46:13.437271+00:00 app[web.1]: [33m[2023-06-05T13:46:13.437] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:46:13.437639+00:00 app[web.1]: [33m[2023-06-05T13:46:13.437] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:46:13.462381+00:00 app[web.1]: [33m[2023-06-05T13:46:13.462] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:13.462450+00:00 app[web.1]: [33m[2023-06-05T13:46:13.462] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:46:13.625105+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972773060" host=teledrv-bot.herokuapp.com request_id=5144d630-ee00-40bc-bc55-8e4110bfedaf fwd="157.41.253.130" dyno=web.1 connect=0ms service=194ms status=200 bytes=284 protocol=https
+2023-06-05T13:46:13.629780+00:00 app[web.1]: [33m[2023-06-05T13:46:13.629] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:46:13.629925+00:00 app[web.1]: [33m[2023-06-05T13:46:13.629] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:13.630032+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972773060 200 23 - 192.736 ms
+2023-06-05T13:46:27.956937+00:00 app[web.1]: [33m[2023-06-05T13:46:27.956] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:46:27.957343+00:00 app[web.1]: [33m[2023-06-05T13:46:27.957] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:46:27.976084+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.285 ms
+2023-06-05T13:46:27.976260+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=3b480dcd-2b94-4df0-aea9-e71524487bd8 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:46:27.983011+00:00 app[web.1]: [33m[2023-06-05T13:46:27.982] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:27.983066+00:00 app[web.1]: [33m[2023-06-05T13:46:27.983] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:46:28.153024+00:00 app[web.1]: [33m[2023-06-05T13:46:28.152] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:46:28.153180+00:00 app[web.1]: [33m[2023-06-05T13:46:28.153] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:28.153279+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972773060 304 - - 196.749 ms
+2023-06-05T13:46:28.153567+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972773060" host=teledrv-bot.herokuapp.com request_id=a8232e14-bfcd-4a7f-8fbb-799d59827d20 fwd="157.41.253.130" dyno=web.1 connect=0ms service=198ms status=304 bytes=204 protocol=https
+2023-06-05T13:46:28.181473+00:00 app[web.1]: [33m[2023-06-05T13:46:28.181] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:46:28.181829+00:00 app[web.1]: [33m[2023-06-05T13:46:28.181] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:46:28.206391+00:00 app[web.1]: [33m[2023-06-05T13:46:28.206] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:28.206441+00:00 app[web.1]: [33m[2023-06-05T13:46:28.206] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:46:28.383676+00:00 heroku[router]: at=info method=GET path="/api/v1/files?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=input_message_content.py" host=teledrv-bot.herokuapp.com request_id=06e67502-8366-456a-bad4-0f8003e09236 fwd="157.41.253.130" dyno=web.1 connect=0ms service=203ms status=200 bytes=284 protocol=https
+2023-06-05T13:46:28.384011+00:00 app[web.1]: [33m[2023-06-05T13:46:28.383] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:46:28.384148+00:00 app[web.1]: [33m[2023-06-05T13:46:28.384] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:28.384245+00:00 app[web.1]: GET /api/v1/files?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=input_message_content.py 200 23 - 202.679 ms
+2023-06-05T13:46:28.785321+00:00 app[web.1]: [33m[2023-06-05T13:46:28.785] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:46:28.785684+00:00 app[web.1]: [33m[2023-06-05T13:46:28.785] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:46:28.810620+00:00 app[web.1]: [33m[2023-06-05T13:46:28.810] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:28.810668+00:00 app[web.1]: [33m[2023-06-05T13:46:28.810] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:46:29.164584+00:00 heroku[router]: at=info method=POST path="/api/v1/files/upload?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=input_message_content.py&size=1413&mime_type=text%2Fx-python&part=0&total_part=1" host=teledrv-bot.herokuapp.com request_id=42c4d898-b01b-4bef-83a8-bf6e6242a171 fwd="157.41.253.130" dyno=web.1 connect=0ms service=381ms status=202 bytes=401 protocol=https
+2023-06-05T13:46:29.164850+00:00 app[web.1]: [33m[2023-06-05T13:46:29.164] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:46:29.164974+00:00 app[web.1]: [33m[2023-06-05T13:46:29.164] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:29.165072+00:00 app[web.1]: POST /api/v1/files/upload?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=input_message_content.py&size=1413&mime_type=text%2Fx-python&part=0&total_part=1 202 70 - 379.740 ms
+2023-06-05T13:46:29.925356+00:00 app[web.1]: [33m[2023-06-05T13:46:29.925] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:46:29.925745+00:00 app[web.1]: [33m[2023-06-05T13:46:29.925] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:46:29.951432+00:00 app[web.1]: [33m[2023-06-05T13:46:29.951] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:29.951495+00:00 app[web.1]: [33m[2023-06-05T13:46:29.951] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:46:30.155388+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&sort=created_at:desc&id.in=(%276860a831-6487-4c86-bdec-f1a857b71b06%27)" host=teledrv-bot.herokuapp.com request_id=ef3ba163-7790-44c1-8bad-d1be33e8dcab fwd="157.41.253.130" dyno=web.1 connect=0ms service=231ms status=200 bytes=652 protocol=https
+2023-06-05T13:46:30.155701+00:00 app[web.1]: [33m[2023-06-05T13:46:30.155] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:46:30.155843+00:00 app[web.1]: [33m[2023-06-05T13:46:30.155] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:30.155961+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&sort=created_at:desc&id.in=(%276860a831-6487-4c86-bdec-f1a857b71b06%27) 200 389 - 230.551 ms
+2023-06-05T13:46:31.930466+00:00 app[web.1]: [33m[2023-06-05T13:46:31.930] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:46:31.930839+00:00 app[web.1]: [33m[2023-06-05T13:46:31.930] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:46:31.955840+00:00 app[web.1]: [33m[2023-06-05T13:46:31.955] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:31.955902+00:00 app[web.1]: [33m[2023-06-05T13:46:31.955] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:46:32.119842+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972773060" host=teledrv-bot.herokuapp.com request_id=3f6dd400-343b-4083-abcf-0318ce677d3d fwd="157.41.253.130" dyno=web.1 connect=0ms service=191ms status=200 bytes=652 protocol=https
+2023-06-05T13:46:32.120194+00:00 app[web.1]: [33m[2023-06-05T13:46:32.120] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:46:32.120323+00:00 app[web.1]: [33m[2023-06-05T13:46:32.120] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:46:32.120414+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972773060 200 389 - 189.929 ms
+2023-06-05T13:47:11.835499+00:00 app[web.1]: GET /app.dark.css 304 - - 0.319 ms
+2023-06-05T13:47:11.836598+00:00 heroku[router]: at=info method=GET path="/app.dark.css" host=teledrv-bot.herokuapp.com request_id=eb7ab621-f0a0-47cd-a9e9-237ae32127dd fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:47:11.963193+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.321 ms
+2023-06-05T13:47:11.963353+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=e4b51785-8220-4003-a368-68732ff517c8 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:47:12.157251+00:00 app[web.1]: [33m[2023-06-05T13:47:12.157] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:12.157624+00:00 app[web.1]: [33m[2023-06-05T13:47:12.157] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:12.183376+00:00 app[web.1]: [33m[2023-06-05T13:47:12.183] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:12.183455+00:00 app[web.1]: [33m[2023-06-05T13:47:12.183] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:12.247280+00:00 app[web.1]: GET /antd.dark.css 304 - - 0.272 ms
+2023-06-05T13:47:12.247436+00:00 heroku[router]: at=info method=GET path="/antd.dark.css" host=teledrv-bot.herokuapp.com request_id=dd42c5fb-4883-4b3e-9392-42be58dd21a8 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=293 protocol=https
+2023-06-05T13:47:12.357017+00:00 app[web.1]: [33m[2023-06-05T13:47:12.356] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:12.357330+00:00 app[web.1]: [33m[2023-06-05T13:47:12.357] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:12.358407+00:00 app[web.1]: [33m[2023-06-05T13:47:12.358] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:12.358531+00:00 app[web.1]: [33m[2023-06-05T13:47:12.358] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:12.358628+00:00 app[web.1]: GET /api/v1/users/me 304 - - 201.445 ms
+2023-06-05T13:47:12.359710+00:00 heroku[router]: at=info method=GET path="/api/v1/users/me" host=teledrv-bot.herokuapp.com request_id=a4c74a52-3f94-48b7-8020-36a470be30f8 fwd="157.41.253.130" dyno=web.1 connect=0ms service=202ms status=304 bytes=205 protocol=https
+2023-06-05T13:47:12.361740+00:00 app[web.1]: [33m[2023-06-05T13:47:12.361] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:12.362015+00:00 app[web.1]: [33m[2023-06-05T13:47:12.361] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:12.383600+00:00 app[web.1]: [33m[2023-06-05T13:47:12.383] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:12.383648+00:00 app[web.1]: [33m[2023-06-05T13:47:12.383] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:12.387807+00:00 app[web.1]: [33m[2023-06-05T13:47:12.387] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:12.387859+00:00 app[web.1]: [33m[2023-06-05T13:47:12.387] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:12.422468+00:00 app[web.1]: GET /logo192.png 304 - - 0.276 ms
+2023-06-05T13:47:12.422696+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=ceb786b1-89ef-41eb-b041-12abad7b3eb7 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:12.493452+00:00 app[web.1]: GET /teledrive-logo/logoteledrive-white.png 304 - - 0.295 ms
+2023-06-05T13:47:12.494100+00:00 heroku[router]: at=info method=GET path="/teledrive-logo/logoteledrive-white.png" host=teledrv-bot.herokuapp.com request_id=8976c9ca-60b1-477e-a6f9-a19ddeb5a756 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:12.542225+00:00 app[web.1]: GET /app.css 304 - - 0.243 ms
+2023-06-05T13:47:12.542503+00:00 heroku[router]: at=info method=GET path="/app.css" host=teledrv-bot.herokuapp.com request_id=a9a83d94-9656-4448-ba1f-487b87a3f862 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=290 protocol=https
+2023-06-05T13:47:12.549706+00:00 app[web.1]: [33m[2023-06-05T13:47:12.549] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:12.549814+00:00 app[web.1]: [33m[2023-06-05T13:47:12.549] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:12.549885+00:00 app[web.1]: GET /api/v1/config 304 - - 192.865 ms
+2023-06-05T13:47:12.550135+00:00 heroku[router]: at=info method=GET path="/api/v1/config" host=teledrv-bot.herokuapp.com request_id=2395d6ec-3e42-4a23-b034-c79c9befb5df fwd="157.41.253.130" dyno=web.1 connect=0ms service=193ms status=304 bytes=204 protocol=https
+2023-06-05T13:47:12.552694+00:00 app[web.1]: [33m[2023-06-05T13:47:12.552] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:12.552802+00:00 app[web.1]: [33m[2023-06-05T13:47:12.552] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:12.552873+00:00 app[web.1]: GET /api/v1/files/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4 200 473 - 191.075 ms
+2023-06-05T13:47:12.554332+00:00 heroku[router]: at=info method=GET path="/api/v1/files/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4" host=teledrv-bot.herokuapp.com request_id=e1465337-7eaa-4f29-9c0d-d176cd5a2ee7 fwd="157.41.253.130" dyno=web.1 connect=1ms service=192ms status=200 bytes=736 protocol=https
+2023-06-05T13:47:12.655609+00:00 app[web.1]: GET /app.dark.css 304 - - 0.263 ms
+2023-06-05T13:47:12.656664+00:00 heroku[router]: at=info method=GET path="/app.dark.css" host=teledrv-bot.herokuapp.com request_id=063215c1-f175-4baf-830f-0d24f535d948 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:47:12.954926+00:00 app[web.1]: [33m[2023-06-05T13:47:12.954] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:12.955318+00:00 app[web.1]: [33m[2023-06-05T13:47:12.955] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:12.981170+00:00 app[web.1]: [33m[2023-06-05T13:47:12.981] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:12.981225+00:00 app[web.1]: [33m[2023-06-05T13:47:12.981] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:12.997176+00:00 app[web.1]: [33m[2023-06-05T13:47:12.997] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:12.997484+00:00 app[web.1]: [33m[2023-06-05T13:47:12.997] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:13.022159+00:00 app[web.1]: [33m[2023-06-05T13:47:13.022] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:13.022204+00:00 app[web.1]: [33m[2023-06-05T13:47:13.022] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:13.140877+00:00 app[web.1]: [33m[2023-06-05T13:47:13.140] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:13.141004+00:00 app[web.1]: [33m[2023-06-05T13:47:13.140] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:13.141110+00:00 app[web.1]: GET /api/v1/files/breadcrumbs/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4 200 500 - 186.174 ms
+2023-06-05T13:47:13.142056+00:00 heroku[router]: at=info method=GET path="/api/v1/files/breadcrumbs/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4" host=teledrv-bot.herokuapp.com request_id=8a64d0c8-4586-42c2-9394-7955af9445e5 fwd="157.41.253.130" dyno=web.1 connect=0ms service=187ms status=200 bytes=763 protocol=https
+2023-06-05T13:47:13.186146+00:00 app[web.1]: [33m[2023-06-05T13:47:13.186] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:13.186274+00:00 app[web.1]: [33m[2023-06-05T13:47:13.186] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:13.186384+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972832617 200 389 - 189.164 ms
+2023-06-05T13:47:13.187631+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972832617" host=teledrv-bot.herokuapp.com request_id=00f38b66-b589-4b7e-94f2-12d54e0df7f8 fwd="157.41.253.130" dyno=web.1 connect=1ms service=190ms status=200 bytes=652 protocol=https
+2023-06-05T13:47:13.727064+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=teledrv-bot.herokuapp.com request_id=efcc2bf0-6121-4289-b04a-a464acb592df fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:47:13.727532+00:00 app[web.1]: GET /manifest.json 304 - - 0.335 ms
+2023-06-05T13:47:14.061251+00:00 app[web.1]: GET /logo192.png 304 - - 0.445 ms
+2023-06-05T13:47:14.062561+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=efe4608f-eb1d-44bd-9616-0651bc5d811b fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:15.241260+00:00 app[web.1]: GET /service-worker.js 304 - - 0.327 ms
+2023-06-05T13:47:15.242653+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=teledrv-bot.herokuapp.com request_id=93045487-c3e2-4aaa-b50e-ed39cf87333d fwd="157.41.253.130" dyno=web.1 connect=1ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:31.422824+00:00 app[web.1]: GET /antd.dark.css 304 - - 0.498 ms
+2023-06-05T13:47:31.422861+00:00 heroku[router]: at=info method=GET path="/antd.dark.css" host=teledrv-bot.herokuapp.com request_id=8fa1c884-00f8-40d4-9e29-114b5cc8f6c3 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=293 protocol=https
+2023-06-05T13:47:31.423679+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.371 ms
+2023-06-05T13:47:31.424049+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=51d427ac-a582-4e4e-a5ce-fbe6929eadbb fwd="157.41.253.130" dyno=web.1 connect=2ms service=2ms status=304 bytes=204 protocol=https
+2023-06-05T13:47:31.732260+00:00 app[web.1]: [33m[2023-06-05T13:47:31.732] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:31.732662+00:00 app[web.1]: [33m[2023-06-05T13:47:31.732] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:31.757432+00:00 app[web.1]: [33m[2023-06-05T13:47:31.757] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:31.757493+00:00 app[web.1]: [33m[2023-06-05T13:47:31.757] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:31.778989+00:00 app[web.1]: GET /logo192.png 304 - - 0.287 ms
+2023-06-05T13:47:31.779662+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=41cc2661-d07c-4467-9779-f8f8a1fb9ef8 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:31.780334+00:00 app[web.1]: GET /teledrive-logo/logoteledrive-white.png 304 - - 0.237 ms
+2023-06-05T13:47:31.780720+00:00 heroku[router]: at=info method=GET path="/teledrive-logo/logoteledrive-white.png" host=teledrv-bot.herokuapp.com request_id=8f8864bd-9fea-49f1-bf25-8b60da11734b fwd="157.41.253.130" dyno=web.1 connect=2ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:31.786012+00:00 app[web.1]: GET /app.css 304 - - 0.301 ms
+2023-06-05T13:47:31.786633+00:00 heroku[router]: at=info method=GET path="/app.css" host=teledrv-bot.herokuapp.com request_id=1af090b2-5d02-4a15-aac2-370f21ecea23 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=290 protocol=https
+2023-06-05T13:47:31.796340+00:00 app[web.1]: GET /app.dark.css 304 - - 0.208 ms
+2023-06-05T13:47:31.797001+00:00 heroku[router]: at=info method=GET path="/app.dark.css" host=teledrv-bot.herokuapp.com request_id=0f2c2ba9-a52d-489d-90d6-3f1a40e42ed0 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:47:31.914230+00:00 app[web.1]: [33m[2023-06-05T13:47:31.914] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:31.914557+00:00 app[web.1]: [33m[2023-06-05T13:47:31.914] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:31.930772+00:00 app[web.1]: [33m[2023-06-05T13:47:31.930] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:31.930839+00:00 heroku[router]: at=info method=GET path="/api/v1/users/me" host=teledrv-bot.herokuapp.com request_id=b333d51f-fff2-49fb-9f3c-72658b3aae8b fwd="157.41.253.130" dyno=web.1 connect=0ms service=200ms status=304 bytes=205 protocol=https
+2023-06-05T13:47:31.930890+00:00 app[web.1]: [33m[2023-06-05T13:47:31.930] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:31.930984+00:00 app[web.1]: GET /api/v1/users/me 304 - - 198.806 ms
+2023-06-05T13:47:31.939071+00:00 app[web.1]: [33m[2023-06-05T13:47:31.939] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:31.939122+00:00 app[web.1]: [33m[2023-06-05T13:47:31.939] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:32.068147+00:00 app[web.1]: [33m[2023-06-05T13:47:32.068] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:32.068456+00:00 app[web.1]: [33m[2023-06-05T13:47:32.068] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:32.093056+00:00 app[web.1]: [33m[2023-06-05T13:47:32.093] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:32.093136+00:00 app[web.1]: [33m[2023-06-05T13:47:32.093] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:32.140068+00:00 app[web.1]: [33m[2023-06-05T13:47:32.140] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:32.140195+00:00 app[web.1]: [33m[2023-06-05T13:47:32.140] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:32.140288+00:00 app[web.1]: GET /api/v1/files/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4 304 - - 225.984 ms
+2023-06-05T13:47:32.140714+00:00 heroku[router]: at=info method=GET path="/api/v1/files/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4" host=teledrv-bot.herokuapp.com request_id=c2f9aec3-d294-49b4-be3e-d74563418dbb fwd="157.41.253.130" dyno=web.1 connect=0ms service=226ms status=304 bytes=205 protocol=https
+2023-06-05T13:47:32.252280+00:00 app[web.1]: [33m[2023-06-05T13:47:32.252] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:32.252393+00:00 app[web.1]: [33m[2023-06-05T13:47:32.252] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:32.252479+00:00 app[web.1]: GET /api/v1/config 304 - - 184.279 ms
+2023-06-05T13:47:32.253454+00:00 heroku[router]: at=info method=GET path="/api/v1/config" host=teledrv-bot.herokuapp.com request_id=2082a78e-e02d-4e18-ad20-61971d2e2fc2 fwd="157.41.253.130" dyno=web.1 connect=0ms service=185ms status=304 bytes=204 protocol=https
+2023-06-05T13:47:32.655732+00:00 app[web.1]: [33m[2023-06-05T13:47:32.655] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:32.656101+00:00 app[web.1]: [33m[2023-06-05T13:47:32.656] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:32.681029+00:00 app[web.1]: [33m[2023-06-05T13:47:32.680] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:32.681079+00:00 app[web.1]: [33m[2023-06-05T13:47:32.681] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:32.753975+00:00 app[web.1]: [33m[2023-06-05T13:47:32.753] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:32.754264+00:00 app[web.1]: [33m[2023-06-05T13:47:32.754] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:32.779980+00:00 app[web.1]: [33m[2023-06-05T13:47:32.779] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:32.780061+00:00 app[web.1]: [33m[2023-06-05T13:47:32.780] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:32.836708+00:00 app[web.1]: [33m[2023-06-05T13:47:32.836] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:32.836833+00:00 app[web.1]: [33m[2023-06-05T13:47:32.836] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:32.836925+00:00 app[web.1]: GET /api/v1/files/breadcrumbs/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4 304 - - 181.269 ms
+2023-06-05T13:47:32.837384+00:00 heroku[router]: at=info method=GET path="/api/v1/files/breadcrumbs/f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4" host=teledrv-bot.herokuapp.com request_id=8c682ad7-1972-4214-8639-f666cac3e64c fwd="157.41.253.130" dyno=web.1 connect=1ms service=182ms status=304 bytes=205 protocol=https
+2023-06-05T13:47:32.964081+00:00 app[web.1]: [33m[2023-06-05T13:47:32.964] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:32.964214+00:00 app[web.1]: [33m[2023-06-05T13:47:32.964] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:32.964296+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307 200 389 - 210.286 ms
+2023-06-05T13:47:32.964976+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307" host=teledrv-bot.herokuapp.com request_id=44d834fa-bef8-410c-a0ea-68a7f10aee50 fwd="157.41.253.130" dyno=web.1 connect=0ms service=211ms status=200 bytes=652 protocol=https
+2023-06-05T13:47:33.639489+00:00 app[web.1]: GET /manifest.json 304 - - 0.352 ms
+2023-06-05T13:47:33.639802+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=teledrv-bot.herokuapp.com request_id=09b066b0-7f01-4e95-b060-94fcedef4470 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:47:33.964493+00:00 app[web.1]: GET /logo192.png 304 - - 0.349 ms
+2023-06-05T13:47:33.965076+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=8ed36d5a-4f9f-412b-9c39-2d5f2ec19533 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:35.654576+00:00 app[web.1]: GET /service-worker.js 304 - - 0.406 ms
+2023-06-05T13:47:35.655096+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=teledrv-bot.herokuapp.com request_id=c28da6cf-0ba8-4e97-8be7-521701ba7a24 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:47:45.730370+00:00 app[web.1]: [33m[2023-06-05T13:47:45.730] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:45.730871+00:00 app[web.1]: [33m[2023-06-05T13:47:45.730] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:45.733045+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.367 ms
+2023-06-05T13:47:45.733655+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=ab014bf8-c9a1-4318-a348-fc3a91ee65a1 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:47:45.755742+00:00 app[web.1]: [33m[2023-06-05T13:47:45.755] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:45.755831+00:00 app[web.1]: [33m[2023-06-05T13:47:45.755] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:45.877513+00:00 app[web.1]: [33m[2023-06-05T13:47:45.877] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:45.878000+00:00 app[web.1]: [33m[2023-06-05T13:47:45.877] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:45.904201+00:00 app[web.1]: [33m[2023-06-05T13:47:45.904] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:45.904314+00:00 app[web.1]: [33m[2023-06-05T13:47:45.904] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:45.937533+00:00 app[web.1]: [33m[2023-06-05T13:47:45.937] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:45.937703+00:00 app[web.1]: [33m[2023-06-05T13:47:45.937] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:45.937829+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307 304 - - 207.513 ms
+2023-06-05T13:47:45.938185+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307" host=teledrv-bot.herokuapp.com request_id=4ac0170b-e8e5-43c2-9c6d-bbfba8f37a00 fwd="157.41.253.130" dyno=web.1 connect=0ms service=208ms status=304 bytes=205 protocol=https
+2023-06-05T13:47:46.119747+00:00 app[web.1]: [33m[2023-06-05T13:47:46.119] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:46.119895+00:00 app[web.1]: [33m[2023-06-05T13:47:46.119] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:46.119953+00:00 heroku[router]: at=info method=GET path="/api/v1/files?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=__init__.py" host=teledrv-bot.herokuapp.com request_id=52f929be-1aef-4510-bc48-a8358a8c6a7c fwd="157.41.253.130" dyno=web.1 connect=0ms service=243ms status=200 bytes=284 protocol=https
+2023-06-05T13:47:46.120006+00:00 app[web.1]: GET /api/v1/files?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=__init__.py 200 23 - 242.491 ms
+2023-06-05T13:47:46.557526+00:00 app[web.1]: [33m[2023-06-05T13:47:46.557] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:46.557920+00:00 app[web.1]: [33m[2023-06-05T13:47:46.557] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:46.583134+00:00 app[web.1]: [33m[2023-06-05T13:47:46.583] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:46.583221+00:00 app[web.1]: [33m[2023-06-05T13:47:46.583] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:46.963404+00:00 app[web.1]: [33m[2023-06-05T13:47:46.963] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:46.963507+00:00 heroku[router]: at=info method=POST path="/api/v1/files/upload?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=__init__.py&size=1006&mime_type=text%2Fx-python&part=0&total_part=1" host=teledrv-bot.herokuapp.com request_id=cbf584cb-eb79-4626-9256-1189f4a61ec5 fwd="157.41.253.130" dyno=web.1 connect=0ms service=408ms status=202 bytes=401 protocol=https
+2023-06-05T13:47:46.963544+00:00 app[web.1]: [33m[2023-06-05T13:47:46.963] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:46.963644+00:00 app[web.1]: POST /api/v1/files/upload?parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&name=__init__.py&size=1006&mime_type=text%2Fx-python&part=0&total_part=1 202 70 - 406.271 ms
+2023-06-05T13:47:47.363032+00:00 app[web.1]: [33m[2023-06-05T13:47:47.362] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:47.363558+00:00 app[web.1]: [33m[2023-06-05T13:47:47.363] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:47.388202+00:00 app[web.1]: [33m[2023-06-05T13:47:47.388] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:47.388337+00:00 app[web.1]: [33m[2023-06-05T13:47:47.388] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:47.549219+00:00 app[web.1]: [33m[2023-06-05T13:47:47.549] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:47.549269+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&sort=created_at:desc&id.in=(%27f8e9535a-28e0-4de3-b157-224d0371fcd2%27)" host=teledrv-bot.herokuapp.com request_id=4425f6a5-29e4-4d61-a423-2626e1b467b5 fwd="157.41.253.130" dyno=web.1 connect=0ms service=188ms status=200 bytes=639 protocol=https
+2023-06-05T13:47:47.549336+00:00 app[web.1]: [33m[2023-06-05T13:47:47.549] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:47.549434+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&sort=created_at:desc&id.in=(%27f8e9535a-28e0-4de3-b157-224d0371fcd2%27) 200 376 - 186.526 ms
+2023-06-05T13:47:47.932400+00:00 app[web.1]: [33m[2023-06-05T13:47:47.932] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:47.932890+00:00 app[web.1]: [33m[2023-06-05T13:47:47.932] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:47.955977+00:00 app[web.1]: [33m[2023-06-05T13:47:47.955] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:47.956047+00:00 app[web.1]: [33m[2023-06-05T13:47:47.956] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:48.121406+00:00 app[web.1]: [33m[2023-06-05T13:47:48.121] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:48.121578+00:00 app[web.1]: [33m[2023-06-05T13:47:48.121] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:48.121583+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307" host=teledrv-bot.herokuapp.com request_id=fff90a09-3c45-4618-8eff-5c04a22fd778 fwd="157.41.253.130" dyno=web.1 connect=0ms service=190ms status=200 bytes=1006 protocol=https
+2023-06-05T13:47:48.121676+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307 200 743 - 189.283 ms
+2023-06-05T13:47:57.312991+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.330 ms
+2023-06-05T13:47:57.313028+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=24ff2ea1-10c3-4cf4-9345-c5d8e97c9ef4 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:47:57.324310+00:00 app[web.1]: [33m[2023-06-05T13:47:57.324] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:47:57.324682+00:00 app[web.1]: [33m[2023-06-05T13:47:57.324] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:47:57.347763+00:00 app[web.1]: [33m[2023-06-05T13:47:57.347] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:57.347828+00:00 app[web.1]: [33m[2023-06-05T13:47:57.347] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:47:57.501813+00:00 app[web.1]: [33m[2023-06-05T13:47:57.501] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:47:57.501935+00:00 app[web.1]: [33m[2023-06-05T13:47:57.501] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:47:57.502032+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307 304 - - 177.702 ms
+2023-06-05T13:47:57.502461+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=f5ebc2a1-e888-4c71-a83b-14aafdf6f7c4&limit=10&offset=0&sort=created_at%3Adesc&t=1685972852307" host=teledrv-bot.herokuapp.com request_id=93f02f5c-3ea6-4f83-ad27-f516e22014a9 fwd="157.41.253.130" dyno=web.1 connect=0ms service=178ms status=304 bytes=205 protocol=https
+2023-06-05T13:48:01.384459+00:00 app[web.1]: [33m[2023-06-05T13:48:01.384] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:48:01.384873+00:00 app[web.1]: [33m[2023-06-05T13:48:01.384] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:48:01.409782+00:00 app[web.1]: [33m[2023-06-05T13:48:01.409] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:48:01.409860+00:00 app[web.1]: [33m[2023-06-05T13:48:01.409] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:48:01.596342+00:00 app[web.1]: [33m[2023-06-05T13:48:01.596] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:48:01.596471+00:00 app[web.1]: [33m[2023-06-05T13:48:01.596] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:48:01.596601+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972880996 200 680 - 212.056 ms
+2023-06-05T13:48:01.597082+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972880996" host=teledrv-bot.herokuapp.com request_id=2d2dbd39-919a-410b-9084-13999eef9abb fwd="157.41.253.130" dyno=web.1 connect=0ms service=213ms status=200 bytes=943 protocol=https
+2023-06-05T13:48:14.119760+00:00 app[web.1]: [33m[2023-06-05T13:48:14.119] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:48:14.120132+00:00 app[web.1]: [33m[2023-06-05T13:48:14.120] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:48:14.145157+00:00 app[web.1]: [33m[2023-06-05T13:48:14.145] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:48:14.145774+00:00 app[web.1]: [33m[2023-06-05T13:48:14.145] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:48:14.393632+00:00 app[web.1]: [33m[2023-06-05T13:48:14.393] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:48:14.393761+00:00 app[web.1]: [33m[2023-06-05T13:48:14.393] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:48:14.393852+00:00 app[web.1]: POST /api/v1/files/sync?limit=50 200 3435 - 274.175 ms
+2023-06-05T13:48:14.394331+00:00 heroku[router]: at=info method=POST path="/api/v1/files/sync?limit=50" host=teledrv-bot.herokuapp.com request_id=3981724b-2dfb-41ee-afbc-eab0cfe5c85f fwd="157.41.253.130" dyno=web.1 connect=0ms service=275ms status=200 bytes=3763 protocol=https
+2023-06-05T13:48:14.839904+00:00 app[web.1]: [33m[2023-06-05T13:48:14.839] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:48:14.840751+00:00 app[web.1]: [33m[2023-06-05T13:48:14.840] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:48:14.865497+00:00 app[web.1]: [33m[2023-06-05T13:48:14.865] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:48:14.865550+00:00 app[web.1]: [33m[2023-06-05T13:48:14.865] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:48:15.049834+00:00 app[web.1]: [33m[2023-06-05T13:48:15.049] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:48:15.049966+00:00 app[web.1]: [33m[2023-06-05T13:48:15.049] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:48:15.050067+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972880996 200 1658 - 210.105 ms
+2023-06-05T13:48:15.050643+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685972880996" host=teledrv-bot.herokuapp.com request_id=2dadc34f-35bf-4f27-9b3a-ebc4360b42d0 fwd="157.41.253.130" dyno=web.1 connect=0ms service=211ms status=200 bytes=1922 protocol=https
+2023-06-05T13:52:25.816280+00:00 app[web.1]: [33m[2023-06-05T13:52:25.816] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:52:25.816668+00:00 app[web.1]: [33m[2023-06-05T13:52:25.816] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:52:25.839697+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=aeb9065f-34dd-4ab0-9276-fc7263ef4096 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:52:25.841154+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.289 ms
+2023-06-05T13:52:25.842398+00:00 app[web.1]: [33m[2023-06-05T13:52:25.842] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:25.842456+00:00 app[web.1]: [33m[2023-06-05T13:52:25.842] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:52:26.070821+00:00 app[web.1]: [33m[2023-06-05T13:52:26.070] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:52:26.070894+00:00 heroku[router]: at=info method=GET path="/api/v1/users/me" host=teledrv-bot.herokuapp.com request_id=a5394bd1-b3b1-46e9-9ae1-90437ea7b311 fwd="157.41.253.130" dyno=web.1 connect=0ms service=255ms status=304 bytes=205 protocol=https
+2023-06-05T13:52:26.070951+00:00 app[web.1]: [33m[2023-06-05T13:52:26.070] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:26.071064+00:00 app[web.1]: GET /api/v1/users/me 304 - - 254.744 ms
+2023-06-05T13:52:26.159685+00:00 heroku[router]: at=info method=GET path="/antd.dark.css" host=teledrv-bot.herokuapp.com request_id=77e6906f-033f-443b-9c08-abd2ff871049 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=293 protocol=https
+2023-06-05T13:52:26.161083+00:00 app[web.1]: GET /antd.dark.css 304 - - 0.313 ms
+2023-06-05T13:52:26.390978+00:00 app[web.1]: GET /app.dark.css 304 - - 0.332 ms
+2023-06-05T13:52:26.391052+00:00 heroku[router]: at=info method=GET path="/app.dark.css" host=teledrv-bot.herokuapp.com request_id=376ca5f6-1e23-45ff-b102-3bcf108b5768 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:52:26.452536+00:00 app[web.1]: GET /app.css 304 - - 0.310 ms
+2023-06-05T13:52:26.452629+00:00 heroku[router]: at=info method=GET path="/app.css" host=teledrv-bot.herokuapp.com request_id=49e6e6bc-7bf4-4914-b7af-f53a5cf28b9a fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=290 protocol=https
+2023-06-05T13:52:26.791519+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=f52c9bd9-5761-432d-9c1b-b1da1e814077 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:26.791540+00:00 app[web.1]: GET /logo192.png 304 - - 0.333 ms
+2023-06-05T13:52:26.821110+00:00 app[web.1]: GET /teledrive-logo/logoteledrive-white.png 304 - - 0.311 ms
+2023-06-05T13:52:26.821310+00:00 heroku[router]: at=info method=GET path="/teledrive-logo/logoteledrive-white.png" host=teledrv-bot.herokuapp.com request_id=56074876-54d1-425d-8a71-5e04f445d172 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:27.816587+00:00 app[web.1]: [33m[2023-06-05T13:52:27.816] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:52:27.816976+00:00 app[web.1]: [33m[2023-06-05T13:52:27.816] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:52:27.840046+00:00 app[web.1]: [33m[2023-06-05T13:52:27.839] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:27.840107+00:00 app[web.1]: [33m[2023-06-05T13:52:27.840] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:52:28.000368+00:00 heroku[router]: at=info method=GET path="/api/v1/config" host=teledrv-bot.herokuapp.com request_id=e986055a-e71a-41f3-a94f-d22b8b662e36 fwd="157.41.253.130" dyno=web.1 connect=0ms service=184ms status=304 bytes=204 protocol=https
+2023-06-05T13:52:28.000663+00:00 app[web.1]: [33m[2023-06-05T13:52:28.000] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:52:28.000832+00:00 app[web.1]: [33m[2023-06-05T13:52:28.000] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:28.000932+00:00 app[web.1]: GET /api/v1/config 304 - - 183.934 ms
+2023-06-05T13:52:28.007363+00:00 app[web.1]: [33m[2023-06-05T13:52:28.007] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:52:28.007686+00:00 app[web.1]: [33m[2023-06-05T13:52:28.007] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:52:28.030579+00:00 app[web.1]: [33m[2023-06-05T13:52:28.030] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:28.030630+00:00 app[web.1]: [33m[2023-06-05T13:52:28.030] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:52:28.204390+00:00 app[web.1]: [33m[2023-06-05T13:52:28.204] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:52:28.204408+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685973147546" host=teledrv-bot.herokuapp.com request_id=90afeedc-69aa-472e-a62e-9fb3bb430c96 fwd="157.41.253.130" dyno=web.1 connect=0ms service=198ms status=200 bytes=1922 protocol=https
+2023-06-05T13:52:28.204549+00:00 app[web.1]: [33m[2023-06-05T13:52:28.204] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:28.204681+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685973147546 200 1658 - 197.123 ms
+2023-06-05T13:52:28.924912+00:00 app[web.1]: GET /manifest.json 304 - - 0.327 ms
+2023-06-05T13:52:28.925056+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=teledrv-bot.herokuapp.com request_id=1a03016f-1f31-4fd7-b412-07873acec3f1 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:52:29.231753+00:00 app[web.1]: GET /logo192.png 304 - - 0.332 ms
+2023-06-05T13:52:29.231866+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=a06e7c46-1c02-421b-88a5-9187a2e94cd5 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:30.292113+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=teledrv-bot.herokuapp.com request_id=c6abd6bb-3712-4f05-b230-897b54dab061 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:30.292141+00:00 app[web.1]: GET /service-worker.js 304 - - 0.321 ms
+2023-06-05T13:52:32.148889+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=0bd1d75f-10e7-43a4-bbca-b8d27ffc3335 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:52:32.149018+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.345 ms
+2023-06-05T13:52:32.191321+00:00 app[web.1]: [33m[2023-06-05T13:52:32.191] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:52:32.191858+00:00 app[web.1]: [33m[2023-06-05T13:52:32.191] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:52:32.217939+00:00 app[web.1]: [33m[2023-06-05T13:52:32.217] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:32.218022+00:00 app[web.1]: [33m[2023-06-05T13:52:32.217] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:52:32.233211+00:00 app[web.1]: [33m[2023-06-05T13:52:32.233] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:52:32.233652+00:00 app[web.1]: [33m[2023-06-05T13:52:32.233] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:52:32.256665+00:00 app[web.1]: [33m[2023-06-05T13:52:32.256] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:32.256728+00:00 app[web.1]: [33m[2023-06-05T13:52:32.256] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:52:32.384055+00:00 app[web.1]: [33m[2023-06-05T13:52:32.383] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:52:32.384210+00:00 app[web.1]: [33m[2023-06-05T13:52:32.384] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:32.384327+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685973147546 304 - - 193.100 ms
+2023-06-05T13:52:32.384411+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685973147546" host=teledrv-bot.herokuapp.com request_id=756a31a4-dca8-4580-95b6-3116eb72c99b fwd="157.41.253.130" dyno=web.1 connect=0ms service=194ms status=304 bytes=205 protocol=https
+2023-06-05T13:52:32.421314+00:00 heroku[router]: at=info method=GET path="/api/v1/users/me" host=teledrv-bot.herokuapp.com request_id=289b65f7-a6b9-4dba-9e1f-b2ed1f259a3f fwd="157.41.253.130" dyno=web.1 connect=0ms service=191ms status=304 bytes=205 protocol=https
+2023-06-05T13:52:32.422553+00:00 app[web.1]: [33m[2023-06-05T13:52:32.422] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:52:32.422687+00:00 app[web.1]: [33m[2023-06-05T13:52:32.422] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:32.422789+00:00 app[web.1]: GET /api/v1/users/me 304 - - 189.648 ms
+2023-06-05T13:52:42.375982+00:00 app[web.1]: [33m[2023-06-05T13:52:42.375] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:52:42.376339+00:00 app[web.1]: [33m[2023-06-05T13:52:42.376] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:52:42.402082+00:00 app[web.1]: [33m[2023-06-05T13:52:42.402] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:42.402138+00:00 app[web.1]: [33m[2023-06-05T13:52:42.402] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:52:42.461245+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.380 ms
+2023-06-05T13:52:42.461252+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=d200d01e-4069-43fc-bb61-6336e000f5ea fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:52:42.564240+00:00 heroku[router]: at=info method=GET path="/api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685973147546" host=teledrv-bot.herokuapp.com request_id=88c701c9-3642-48c7-8f0d-6f84cdce3584 fwd="157.41.253.130" dyno=web.1 connect=0ms service=190ms status=304 bytes=205 protocol=https
+2023-06-05T13:52:42.565596+00:00 app[web.1]: [33m[2023-06-05T13:52:42.565] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:52:42.565722+00:00 app[web.1]: [33m[2023-06-05T13:52:42.565] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:42.565827+00:00 app[web.1]: GET /api/v1/files?exclude_parts=1&parent_id=null&limit=10&offset=0&sort=created_at%3Adesc&t=1685973147546 304 - - 189.840 ms
+2023-06-05T13:52:42.752545+00:00 heroku[router]: at=info method=GET path="/teledrive-logo/logoteledrive-white.png" host=teledrv-bot.herokuapp.com request_id=30c3e924-183e-4205-98d6-cd4e9010e076 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:42.752617+00:00 app[web.1]: GET /teledrive-logo/logoteledrive-white.png 304 - - 0.330 ms
+2023-06-05T13:52:42.791571+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=4554d78f-4779-4727-b9b3-16bdf558c183 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:52:42.791581+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.414 ms
+2023-06-05T13:52:42.826425+00:00 app[web.1]: [33m[2023-06-05T13:52:42.826] [INFO] - [Running gramJS version 2.15.3][0m
+2023-06-05T13:52:42.826785+00:00 app[web.1]: [33m[2023-06-05T13:52:42.826] [INFO] - [Connecting to 149.154.175.57:80/TCPFull using PromisedNetSocket][0m
+2023-06-05T13:52:42.851536+00:00 app[web.1]: [33m[2023-06-05T13:52:42.851] [INFO] - [Connection to 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:42.851593+00:00 app[web.1]: [33m[2023-06-05T13:52:42.851] [INFO] - [Using LAYER 150 for initial connect][0m
+2023-06-05T13:52:42.861212+00:00 app[web.1]: GET /app.dark.css 304 - - 0.276 ms
+2023-06-05T13:52:42.862428+00:00 heroku[router]: at=info method=GET path="/app.dark.css" host=teledrv-bot.herokuapp.com request_id=93b652a0-1d6d-4e4a-aa05-aeb592f96fe1 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:52:42.895207+00:00 heroku[router]: at=info method=GET path="/antd.dark.css" host=teledrv-bot.herokuapp.com request_id=ea5ac2ad-2984-4e92-8365-3315dde1ecb8 fwd="157.41.253.130" dyno=web.1 connect=1ms service=1ms status=304 bytes=293 protocol=https
+2023-06-05T13:52:42.896686+00:00 app[web.1]: GET /antd.dark.css 304 - - 0.318 ms
+2023-06-05T13:52:43.007055+00:00 heroku[router]: at=info method=GET path="/api/v1/users/me" host=teledrv-bot.herokuapp.com request_id=1deeea4b-afb5-4930-9752-073c70676c21 fwd="157.41.253.130" dyno=web.1 connect=0ms service=182ms status=304 bytes=205 protocol=https
+2023-06-05T13:52:43.007551+00:00 app[web.1]: [33m[2023-06-05T13:52:43.007] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull...][0m
+2023-06-05T13:52:43.007671+00:00 app[web.1]: [33m[2023-06-05T13:52:43.007] [INFO] - [Disconnecting from 149.154.175.57:80/TCPFull complete!][0m
+2023-06-05T13:52:43.007760+00:00 app[web.1]: GET /api/v1/users/me 304 - - 181.336 ms
+2023-06-05T13:52:43.051482+00:00 app[web.1]: GET /logo192.png 304 - - 0.285 ms
+2023-06-05T13:52:43.051756+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=83916a14-c38f-4bb0-9e78-182436a3d341 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:43.120989+00:00 app[web.1]: GET /app.css 304 - - 0.297 ms
+2023-06-05T13:52:43.121205+00:00 heroku[router]: at=info method=GET path="/app.css" host=teledrv-bot.herokuapp.com request_id=34bd7f68-a6e9-4a91-873c-24b75895992a fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=290 protocol=https
+2023-06-05T13:52:43.334254+00:00 app[web.1]: GET /manifest.json 304 - - 0.327 ms
+2023-06-05T13:52:43.334430+00:00 heroku[router]: at=info method=GET path="/manifest.json" host=teledrv-bot.herokuapp.com request_id=57bedc5a-77c5-460a-ab2e-9e7d51ab6d20 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=291 protocol=https
+2023-06-05T13:52:43.661157+00:00 app[web.1]: GET /logo192.png 304 - - 0.315 ms
+2023-06-05T13:52:43.661235+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=181fbc6f-88f0-4b54-a26d-e90b90be0249 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:45.001827+00:00 app[web.1]: GET /service-worker.js 304 - - 0.347 ms
+2023-06-05T13:52:45.001935+00:00 heroku[router]: at=info method=GET path="/service-worker.js" host=teledrv-bot.herokuapp.com request_id=03e2bf26-050b-4c83-8b40-15be316e4ddc fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T13:52:52.961254+00:00 app[web.1]: GET /api/v1/utils/maintenance 304 - - 0.335 ms
+2023-06-05T13:52:52.961402+00:00 heroku[router]: at=info method=GET path="/api/v1/utils/maintenance" host=teledrv-bot.herokuapp.com request_id=7ea48dfa-d8db-4f8f-bdd7-fc4a44da36a4 fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=204 protocol=https
+2023-06-05T13:53:03.402083+00:00 app[web.1]: GET /src 200 5632 - 1.211 ms
+2023-06-05T13:53:03.402308+00:00 heroku[router]: at=info method=GET path="/src" host=teledrv-bot.herokuapp.com request_id=ddb5a46f-65a1-47a6-b508-7a414c54995f fwd="157.41.253.130" dyno=web.1 connect=0ms service=2ms status=200 bytes=5976 protocol=https
+2023-06-05T13:53:25.646458+00:00 app[web.1]: GET /logo192.png 304 - - 0.359 ms
+2023-06-05T13:53:25.646560+00:00 heroku[router]: at=info method=GET path="/logo192.png" host=teledrv-bot.herokuapp.com request_id=bc444f02-3d25-4f91-8b7d-9ac5e51a606e fwd="157.41.253.130" dyno=web.1 connect=0ms service=1ms status=304 bytes=292 protocol=https
+2023-06-05T14:27:02.031526+00:00 heroku[web.1]: Idling
+2023-06-05T14:27:02.035108+00:00 heroku[web.1]: State changed from up to down
+2023-06-05T14:27:02.516932+00:00 heroku[web.1]: Stopping all processes with SIGTERM
+2023-06-05T14:27:02.674503+00:00 heroku[web.1]: Process exited with status 1

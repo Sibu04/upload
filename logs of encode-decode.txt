@@ -1,0 +1,500 @@
+2023-06-11T17:51:38.416827+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T17:51:38.448676+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T17:51:40.992254+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=encode-decode.herokuapp.com request_id=b59be32e-e2da-4773-bd3e-b76aa7f59753 fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T17:51:41.191556+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=encode-decode.herokuapp.com request_id=f662b790-7c5f-4c7f-884f-4b031def25b4 fwd="107.178.207.69" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T17:51:42.298557+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=encode-decode.herokuapp.com request_id=00b510b2-52ff-46eb-8252-aec9e69be5bf fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T17:51:46.088753+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=encode-decode.herokuapp.com request_id=23893119-cfd3-4a58-90c4-02d4315e6807 fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T17:51:48.961598+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=encode-decode.herokuapp.com request_id=42ce5d5a-81fc-46d2-b39a-6de0c5b93470 fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T17:53:59.053647+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=encode-decode.herokuapp.com request_id=ed5eb65c-51ec-441a-a93c-37e700d9d6cc fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T17:53:59.691027+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=encode-decode.herokuapp.com request_id=774cb507-1cea-4e61-811c-0b30dc26912e fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T18:11:44.955297+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T18:11:46.521012+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T18:11:47.670822+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T18:11:47.670846+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T18:11:47.680898+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T18:11:47.680899+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T18:11:47.680930+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T18:11:47.684198+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T18:11:47.811533+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T18:11:47.811851+00:00 app[web.1]:  * Debugger PIN: 715-465-995
+2023-06-11T18:12:46.767700+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T18:12:46.787663+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T18:12:46.947454+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T18:12:46.989834+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T18:21:22.946911+00:00 app[api]: Remove PORT config vars by user d5bdwlaz@wwpager.me
+2023-06-11T18:21:22.946911+00:00 app[api]: Release v8 created by user d5bdwlaz@wwpager.me
+2023-06-11T18:21:23.306168+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T18:21:25.030962+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T18:21:25.952002+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T18:21:25.952030+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T18:21:25.962626+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T18:21:25.962627+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T18:21:25.962657+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T18:21:25.966506+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T18:21:26.105088+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T18:21:26.105464+00:00 app[web.1]:  * Debugger PIN: 134-567-516
+2023-06-11T18:22:25.393393+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T18:22:25.414676+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T18:22:25.558862+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T18:22:25.588926+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T18:22:25.593051+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T18:22:26.876146+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T18:22:27.903977+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T18:22:27.904002+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T18:22:27.918680+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T18:22:27.918685+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T18:22:27.918698+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T18:22:27.924023+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T18:22:28.074694+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T18:22:28.075168+00:00 app[web.1]:  * Debugger PIN: 760-840-723
+2023-06-11T18:23:02.871886+00:00 heroku[web.1]: Restarting
+2023-06-11T18:23:04.201149+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T18:23:05.117019+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T18:23:05.117051+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T18:23:05.127611+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T18:23:05.127611+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T18:23:05.127640+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T18:23:05.131293+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T18:23:05.261742+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T18:23:05.262149+00:00 app[web.1]:  * Debugger PIN: 115-058-048
+2023-06-11T18:23:12.643344+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=encode-decode.herokuapp.com request_id=196e56e0-f5bc-47df-a434-82dd288428e8 fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T18:23:27.292841+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T18:23:27.315183+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T18:23:27.458697+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T18:24:04.707605+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T18:24:04.732753+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T18:24:04.933118+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T18:24:04.956621+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T18:24:07.273993+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=encode-decode.herokuapp.com request_id=1d6b8a4c-175a-4a8b-b23d-76691a4d73f8 fwd="157.41.255.73" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-11T18:33:52.568131+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T18:33:53.999322+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T18:33:54.923781+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T18:33:54.923808+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T18:33:54.934504+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T18:33:54.934505+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T18:33:54.934532+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T18:33:54.938341+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T18:33:55.071904+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T18:33:55.072292+00:00 app[web.1]:  * Debugger PIN: 838-032-895
+2023-06-11T18:34:54.533474+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T18:34:54.555094+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T18:34:54.691043+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T18:34:54.724767+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T18:54:59.162205+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T18:55:00.751448+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T18:55:01.709296+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T18:55:01.709331+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T18:55:01.723789+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T18:55:01.723791+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T18:55:01.723823+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T18:55:01.728610+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T18:55:01.886734+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T18:55:01.887079+00:00 app[web.1]:  * Debugger PIN: 324-156-999
+2023-06-11T18:56:00.962702+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T18:56:00.981342+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T18:56:01.130293+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T18:56:01.170970+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T19:36:07.751681+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T19:36:09.192970+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T19:36:10.054485+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T19:36:10.054520+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T19:36:10.064776+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T19:36:10.064777+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T19:36:10.064804+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T19:36:10.068379+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T19:36:10.204139+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T19:36:10.205394+00:00 app[web.1]:  * Debugger PIN: 118-296-820
+2023-06-11T19:37:09.703715+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T19:37:09.723393+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T19:37:09.858311+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T19:37:09.886624+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T20:59:33.784361+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T20:59:35.094564+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T20:59:35.949975+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T20:59:35.949991+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T20:59:35.964740+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T20:59:35.964742+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T20:59:35.964775+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T20:59:35.969670+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T20:59:36.107727+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T20:59:36.108191+00:00 app[web.1]:  * Debugger PIN: 135-809-437
+2023-06-11T21:00:35.419248+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T21:00:35.437922+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T21:00:35.573070+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T21:00:35.602313+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-11T23:48:23.365712+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-11T23:48:24.748377+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-11T23:48:25.595306+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-11T23:48:25.595322+00:00 app[web.1]:  * Debug mode: on
+2023-06-11T23:48:25.605590+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-11T23:48:25.605592+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-11T23:48:25.605629+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-11T23:48:25.609030+00:00 app[web.1]:  * Restarting with stat
+2023-06-11T23:48:25.735607+00:00 app[web.1]:  * Debugger is active!
+2023-06-11T23:48:25.735959+00:00 app[web.1]:  * Debugger PIN: 127-413-844
+2023-06-11T23:49:25.032499+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-11T23:49:25.050427+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-11T23:49:25.177357+00:00 heroku[web.1]: Process exited with status 137
+2023-06-11T23:49:25.201459+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T02:40:12.282459+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=encode-decode.herokuapp.com request_id=df3d7d95-4855-4262-905d-c46fe5ec78eb fwd="157.41.255.207" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-12T02:40:15.100856+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=encode-decode.herokuapp.com request_id=6acd0260-5ea1-4d9f-86ad-731086a829d3 fwd="157.41.255.207" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-12T05:36:16.806445+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T05:36:18.254860+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T05:36:19.269807+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T05:36:19.269836+00:00 app[web.1]:  * Debug mode: on
+2023-06-12T05:36:19.280307+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T05:36:19.280308+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T05:36:19.280336+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T05:36:19.283979+00:00 app[web.1]:  * Restarting with stat
+2023-06-12T05:36:19.423655+00:00 app[web.1]:  * Debugger is active!
+2023-06-12T05:36:19.424171+00:00 app[web.1]:  * Debugger PIN: 788-542-190
+2023-06-12T05:37:18.621636+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T05:37:18.638772+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T05:37:18.800439+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T05:37:18.832494+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T06:27:37.000000+00:00 app[api]: Build started by user d5bdwlaz@wwpager.me
+2023-06-12T06:27:48.901777+00:00 app[api]: Deploy 7581c9ae by user d5bdwlaz@wwpager.me
+2023-06-12T06:27:48.901777+00:00 app[api]: Release v9 created by user d5bdwlaz@wwpager.me
+2023-06-12T06:27:49.127059+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T06:27:50.300595+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T06:27:51.152929+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T06:27:51.152954+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T06:27:51.154108+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T06:27:51.154109+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T06:27:51.154144+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T06:27:52.000000+00:00 app[api]: Build succeeded
+2023-06-12T06:28:19.058759+00:00 heroku[web.1]: Restarting
+2023-06-12T06:28:20.116131+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T06:28:20.972086+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T06:28:20.972100+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T06:28:20.973302+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T06:28:20.973303+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T06:28:20.973328+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T06:28:50.619571+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T06:28:50.643057+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T06:28:50.781380+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T06:29:20.545827+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T06:29:20.566644+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T06:29:20.710277+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T06:29:20.735261+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T06:29:20.740089+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T06:29:22.003384+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T06:29:23.976998+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T06:29:23.977022+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T06:29:23.978462+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T06:29:23.978463+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T06:29:23.978486+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T06:29:50.388250+00:00 heroku[router]: at=error code=H20 desc="App boot timeout" method=GET path="/" host=encode-decode.herokuapp.com request_id=815794b5-99b5-4b52-bd62-decb47beadd1 fwd="157.41.252.188" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-12T06:30:22.342042+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T06:30:22.369228+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T06:30:22.536292+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T06:30:22.572556+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T06:30:25.639386+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=encode-decode.herokuapp.com request_id=a18d4c89-9e22-407e-a48c-7b3a73a7946e fwd="157.41.252.188" dyno= connect= service= status=503 bytes= protocol=https
+2023-06-12T06:50:51.449740+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T06:50:52.655945+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T06:50:53.575586+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T06:50:53.575614+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T06:50:53.576792+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T06:50:53.576793+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T06:50:53.576821+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T06:51:52.864513+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T06:51:52.886735+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T06:51:53.023145+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T06:51:53.053867+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T07:32:50.338839+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T07:32:51.860861+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T07:32:52.851300+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T07:32:52.851342+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T07:32:52.852637+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T07:32:52.852638+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T07:32:52.852667+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T07:33:51.892107+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T07:33:51.919895+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T07:33:52.060807+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T07:33:52.094164+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T08:54:09.306454+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T08:54:10.579218+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T08:54:11.494325+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T08:54:11.494365+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T08:54:11.495693+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T08:54:11.495695+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T08:54:11.495722+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T08:55:11.135591+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T08:55:11.156170+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T08:55:11.309521+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T08:55:11.339274+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T11:43:47.049637+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T11:43:48.431541+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T11:43:49.359841+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T11:43:49.359872+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T11:43:49.361109+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T11:43:49.361110+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T11:43:49.361141+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T11:44:48.636206+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T11:44:48.654739+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T11:44:48.827383+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T11:44:48.866354+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T17:32:26.798558+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T17:32:28.400219+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T17:32:29.538734+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T17:32:29.538756+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T17:32:29.540471+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T17:32:29.540472+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T17:32:29.540564+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T17:33:28.429530+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T17:33:28.451630+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T17:33:28.653583+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T17:33:28.683252+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-12T23:21:07.966076+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-12T23:21:09.525033+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-12T23:21:10.493169+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-12T23:21:10.493196+00:00 app[web.1]:  * Debug mode: off
+2023-06-12T23:21:10.494730+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-12T23:21:10.494730+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-12T23:21:10.494761+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-12T23:22:09.665745+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-12T23:22:09.694167+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-12T23:22:09.824518+00:00 heroku[web.1]: Process exited with status 137
+2023-06-12T23:22:09.856503+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-13T04:57:24.048009+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-13T04:57:25.423470+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-13T04:57:26.307843+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-13T04:57:26.307861+00:00 app[web.1]:  * Debug mode: off
+2023-06-13T04:57:26.310610+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-13T04:57:26.310612+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-13T04:57:26.310612+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-13T04:58:25.456494+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-13T04:58:25.478836+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-13T04:58:25.617833+00:00 heroku[web.1]: Process exited with status 137
+2023-06-13T04:58:25.654892+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-13T11:03:34.002501+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-13T11:03:35.397118+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-13T11:03:36.276440+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-13T11:03:36.276457+00:00 app[web.1]:  * Debug mode: off
+2023-06-13T11:03:36.277634+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-13T11:03:36.277635+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-13T11:03:36.277661+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-13T11:04:35.644427+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-13T11:04:35.664367+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-13T11:04:35.776323+00:00 heroku[web.1]: Process exited with status 137
+2023-06-13T11:04:35.812274+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-13T16:39:50.863744+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-13T16:39:52.254136+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-13T16:39:53.165045+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-13T16:39:53.165067+00:00 app[web.1]:  * Debug mode: off
+2023-06-13T16:39:53.166340+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-13T16:39:53.166341+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-13T16:39:53.166365+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-13T16:40:52.783947+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-13T16:40:52.802843+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-13T16:40:52.966781+00:00 heroku[web.1]: Process exited with status 137
+2023-06-13T16:40:53.017463+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-13T22:03:28.717354+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-13T22:03:30.418840+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-13T22:03:31.369902+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-13T22:03:31.369965+00:00 app[web.1]:  * Debug mode: off
+2023-06-13T22:03:31.371174+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-13T22:03:31.371174+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-13T22:03:31.371206+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-13T22:04:30.682085+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-13T22:04:30.700454+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-13T22:04:30.861923+00:00 heroku[web.1]: Process exited with status 137
+2023-06-13T22:04:30.892954+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-14T03:47:43.879603+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-14T03:47:45.243033+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-14T03:47:46.156252+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-14T03:47:46.156297+00:00 app[web.1]:  * Debug mode: off
+2023-06-14T03:47:46.157523+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-14T03:47:46.157524+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-14T03:47:46.157554+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-14T03:48:45.459158+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-14T03:48:45.480077+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-14T03:48:45.621636+00:00 heroku[web.1]: Process exited with status 137
+2023-06-14T03:48:45.656303+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-14T09:30:54.266292+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-14T09:30:55.700680+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-14T09:30:56.753401+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-14T09:30:56.753515+00:00 app[web.1]:  * Debug mode: off
+2023-06-14T09:30:56.754935+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-14T09:30:56.754936+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-14T09:30:56.754991+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-14T09:31:55.744143+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-14T09:31:55.767207+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-14T09:31:55.905309+00:00 heroku[web.1]: Process exited with status 137
+2023-06-14T09:31:55.930043+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-14T15:07:10.793257+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-14T15:07:12.024196+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-14T15:07:13.073652+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-14T15:07:13.073671+00:00 app[web.1]:  * Debug mode: off
+2023-06-14T15:07:13.075343+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-14T15:07:13.075344+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-14T15:07:13.075384+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-14T15:08:12.207210+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-14T15:08:12.231300+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-14T15:08:12.365633+00:00 heroku[web.1]: Process exited with status 137
+2023-06-14T15:08:12.398322+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-14T20:51:27.176090+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-14T20:51:28.810597+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-14T20:51:29.865838+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-14T20:51:29.865856+00:00 app[web.1]:  * Debug mode: off
+2023-06-14T20:51:29.867080+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-14T20:51:29.867081+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-14T20:51:29.867111+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-14T20:52:29.292667+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-14T20:52:29.311187+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-14T20:52:29.470036+00:00 heroku[web.1]: Process exited with status 137
+2023-06-14T20:52:29.498686+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-15T02:19:43.229114+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-15T02:19:44.688151+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-15T02:19:45.897721+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-15T02:19:45.897764+00:00 app[web.1]:  * Debug mode: off
+2023-06-15T02:19:45.899227+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-15T02:19:45.899228+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-15T02:19:45.899259+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-15T02:20:45.118473+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-15T02:20:45.138909+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-15T02:20:45.293560+00:00 heroku[web.1]: Process exited with status 137
+2023-06-15T02:20:45.323894+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-15T08:04:00.301340+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-15T08:04:01.594422+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-15T08:04:02.581313+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-15T08:04:02.581342+00:00 app[web.1]:  * Debug mode: off
+2023-06-15T08:04:02.582650+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-15T08:04:02.582650+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-15T08:04:02.582682+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-15T08:05:01.915646+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-15T08:05:01.935423+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-15T08:05:02.114572+00:00 heroku[web.1]: Process exited with status 137
+2023-06-15T08:05:02.147368+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-15T13:39:15.066889+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-15T13:39:16.327913+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-15T13:39:17.277542+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-15T13:39:17.277568+00:00 app[web.1]:  * Debug mode: off
+2023-06-15T13:39:17.279109+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-15T13:39:17.279110+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-15T13:39:17.279150+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-15T13:40:16.715624+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-15T13:40:16.735959+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-15T13:40:16.885848+00:00 heroku[web.1]: Process exited with status 137
+2023-06-15T13:40:16.919723+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-15T19:23:30.245525+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-15T19:23:31.646895+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-15T19:23:32.497199+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-15T19:23:32.497219+00:00 app[web.1]:  * Debug mode: off
+2023-06-15T19:23:32.498448+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-15T19:23:32.498449+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-15T19:23:32.498480+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-15T19:24:32.077596+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-15T19:24:32.104698+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-15T19:24:32.249508+00:00 heroku[web.1]: Process exited with status 137
+2023-06-15T19:24:32.279234+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-16T01:15:38.541657+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-16T01:15:40.128007+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-16T01:15:40.976097+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-16T01:15:40.976124+00:00 app[web.1]:  * Debug mode: off
+2023-06-16T01:15:40.977302+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-16T01:15:40.977303+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-16T01:15:40.977345+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-16T01:16:40.481094+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-16T01:16:40.498308+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-16T01:16:40.636318+00:00 heroku[web.1]: Process exited with status 137
+2023-06-16T01:16:40.669870+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-16T06:43:54.723007+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-16T06:43:56.055698+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-16T06:43:56.913402+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-16T06:43:56.913434+00:00 app[web.1]:  * Debug mode: off
+2023-06-16T06:43:56.914587+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-16T06:43:56.914588+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-16T06:43:56.914618+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-16T06:44:56.221578+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-16T06:44:56.239092+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-16T06:44:56.369052+00:00 heroku[web.1]: Process exited with status 137
+2023-06-16T06:44:56.402774+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-16T12:28:39.752447+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-16T12:28:41.031648+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-16T12:28:41.988829+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-16T12:28:41.988853+00:00 app[web.1]:  * Debug mode: off
+2023-06-16T12:28:41.990528+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-16T12:28:41.990529+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-16T12:28:41.990571+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-16T12:29:41.216521+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-16T12:29:41.237516+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-16T12:29:41.360271+00:00 heroku[web.1]: Process exited with status 137
+2023-06-16T12:29:41.392262+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-16T18:14:21.586745+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-16T18:14:22.862187+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-16T18:14:23.724971+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-16T18:14:23.725001+00:00 app[web.1]:  * Debug mode: off
+2023-06-16T18:14:23.726181+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-16T18:14:23.726181+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-16T18:14:23.726213+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-16T18:15:23.412001+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-16T18:15:23.435875+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-16T18:15:23.591681+00:00 heroku[web.1]: Process exited with status 137
+2023-06-16T18:15:23.621089+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-17T00:06:39.877126+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-17T00:06:41.156232+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-17T00:06:42.139811+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-17T00:06:42.139832+00:00 app[web.1]:  * Debug mode: off
+2023-06-17T00:06:42.141214+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-17T00:06:42.141228+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-17T00:06:42.141265+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-17T00:07:41.259157+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-17T00:07:41.281169+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-17T00:07:41.439221+00:00 heroku[web.1]: Process exited with status 137
+2023-06-17T00:07:41.469043+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-17T06:06:23.554475+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-17T06:06:24.863691+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-17T06:06:25.702297+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-17T06:06:25.702319+00:00 app[web.1]:  * Debug mode: off
+2023-06-17T06:06:25.703454+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-17T06:06:25.703454+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-17T06:06:25.703484+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-17T06:07:25.215908+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-17T06:07:25.237875+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-17T06:07:25.379694+00:00 heroku[web.1]: Process exited with status 137
+2023-06-17T06:07:25.408995+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-17T12:06:48.274537+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-17T12:06:49.610048+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-17T12:06:50.511240+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-17T12:06:50.511261+00:00 app[web.1]:  * Debug mode: off
+2023-06-17T12:06:50.512534+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-17T12:06:50.512535+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-17T12:06:50.512565+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-17T12:07:49.885067+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-17T12:07:49.905162+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-17T12:07:50.054035+00:00 heroku[web.1]: Process exited with status 137
+2023-06-17T12:07:50.087063+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-17T17:59:12.489006+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-17T17:59:13.880203+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-17T17:59:14.854818+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-17T17:59:14.854855+00:00 app[web.1]:  * Debug mode: off
+2023-06-17T17:59:14.856148+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-17T17:59:14.856149+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-17T17:59:14.856189+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-17T18:00:14.390433+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-17T18:00:14.408960+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-17T18:00:14.545471+00:00 heroku[web.1]: Process exited with status 137
+2023-06-17T18:00:14.570126+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-17T23:51:36.766898+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-17T23:51:38.137415+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-17T23:51:39.026524+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-17T23:51:39.026539+00:00 app[web.1]:  * Debug mode: off
+2023-06-17T23:51:39.027748+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-17T23:51:39.027752+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-17T23:51:39.027775+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-17T23:52:38.496969+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-17T23:52:38.519888+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-17T23:52:38.672413+00:00 heroku[web.1]: Process exited with status 137
+2023-06-17T23:52:38.705222+00:00 heroku[web.1]: State changed from starting to crashed
+2023-06-18T05:28:00.584904+00:00 heroku[web.1]: State changed from crashed to starting
+2023-06-18T05:28:01.896647+00:00 heroku[web.1]: Starting process with command `python app.py`
+2023-06-18T05:28:02.778950+00:00 app[web.1]:  * Serving Flask app 'app'
+2023-06-18T05:28:02.778978+00:00 app[web.1]:  * Debug mode: off
+2023-06-18T05:28:02.780119+00:00 app[web.1]: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+2023-06-18T05:28:02.780120+00:00 app[web.1]:  * Running on http://127.0.0.1:5000
+2023-06-18T05:28:02.780152+00:00 app[web.1]: [33mPress CTRL+C to quit[0m
+2023-06-18T05:29:02.346293+00:00 heroku[web.1]: Error R10 (Boot timeout) -> Web process failed to bind to $PORT within 60 seconds of launch
+2023-06-18T05:29:02.368580+00:00 heroku[web.1]: Stopping process with SIGKILL
+2023-06-18T05:29:02.526084+00:00 heroku[web.1]: Process exited with status 137
+2023-06-18T05:29:02.553876+00:00 heroku[web.1]: State changed from starting to crashed
